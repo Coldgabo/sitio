@@ -1,13 +1,12 @@
-var boton=document.getElementById("boton_fact");
-var n = document.getElementById("factorial");
-var divhtml = document.getElementById("div_msg");
+var boton=document.getElementById("boton_radio");
 
 boton.addEventListener("click", facto);
-var num = parseInt(n.value);
+
 function facto(){
-	var facto=1;
-	for(var i=num; i>=1; i--){
-		facto *= i;
-	}
-	div_msg.innerHTML = "El factorial de "+num+" es: "+ facto;
-}
+	var n = document.getElementById("radio");
+	var divhtml = document.getElementById("div_msg");
+	var num = parseInt(n.value);
+	var valor=1;
+	valor= valor*((3.1416)*(num*num*num)*(4.0/3));
+	divhtml.innerHTML = "El volumen de "+num+" es: "+ valor;
+} 

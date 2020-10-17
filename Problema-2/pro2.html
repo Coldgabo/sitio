@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="icon" type="image/png" href="bitcoin.png">
+	<link rel="stylesheet" href="style2.css">
+	<title>Problema 1041</title>
+	<meta charset="utf-8">
 </head>
-<body>
-
+<body background="img/fondo1.jpg">
+	<center>
+		<h3>PLANO</h3>
+		<table>
+			<tr><td>Points: 33.33</td><td>Memory limit: 20 MiB</td></tr>
+			<tr><td>Time limit (case): 1s</td><td>Time limit (total): 1m 0s</td></tr>
+			<tr><td>Input limit (bytes) 10kiB</td></tr>
+		</table>
+	</center>
+	<h7><strong>Descripción</strong></h7><br>
+	<font style="color:white" size="3"><p>Programa que dado dos numeros flotantes de el lugar donde se ecuentra el punto </p></font>
+	<h7><strong>Entrada</strong></h7><br>
+	<font style="color:white" size="3"><p>Coordenadas (Coordenadas pedidas por el usuario).</p></font>
+	<h7><strong>Salida</strong></h7><br>
+	<font style="color:white" size="3"><p>Pos (Posicion de los numeros dados)</p></font>
+	<h7><strong>Ejemplo</strong></h7><br><br>
+	<table>
+		<tr><th>Input</th>
+		<th>Output</th></tr>
+		<tr >
+			<td>4.5 -2.2</td><td>VOLUME = Q4</td>
+		</tr>
+		<tr >
+			<td>0.1 0.1</td><td>VOLUME = Q1</td>
+		</tr> 
+		<tr >
+			<td>0.0 0.0</td><td>VOLUME = Origem</td>
+		</tr>
+	</table><hr>
+	<br>
+	<strong>Formulario</strong><br>
+		Ingresa un número: <br>
+		X=<input type="text" id="ejeX"> <br>
+		Y=<input type="text" id="ejeY">
+		<input type="button" id="boton_exe" value="Posicion"><br><br>
+		<div id="div_msg"></div>
+		<script src="funcs2.js"></script>
 </body>
 </html>
